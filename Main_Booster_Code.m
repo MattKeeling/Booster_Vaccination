@@ -84,7 +84,7 @@ for TYPE=0:1
     
     %%
     maxtime = max(RUN_STOPs(end,:))+30; % needs to be big enough to take account of any lags
-    nALL = zeros(11,maxtime,63,length(nALPHA));
+    nALL_INF = zeros(11,maxtime,63,length(nALPHA));
     nDEATHS = zeros(11,maxtime,63,length(nALPHA));
     nHOSP_AD = zeros(11,maxtime,63,length(nALPHA));
     nHOSP_OCC = zeros(11,maxtime,63,length(nALPHA));
